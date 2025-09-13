@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
 --- !u!74 &7400000
@@ -7876,3 +7877,8 @@ AnimationClip:
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
   m_Events: []
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:ece7c204c66d4da4e7dca5d9b57f799a98edf1b7f399becdc5d23a8272e9c032
+size 377718
+>>>>>>> origin/main

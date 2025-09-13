@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
 --- !u!1 &2448170570080855784
@@ -83,3 +84,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:03f3bf78290278a8e518fd43f1e12b4487bfef211875181c063f040f9d64d1b9
+size 2585
+>>>>>>> origin/main

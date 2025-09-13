@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
 --- !u!1 &100000
@@ -221,3 +222,8 @@ MonoBehaviour:
   visualiseInEditor: 1
   closestDistance: 0.5
   dontClipTag: Player
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:74cd9ae702f840237edf905af62f51f05bafc91513e996ccf2a32022c3f1efa1
+size 5813
+>>>>>>> origin/main

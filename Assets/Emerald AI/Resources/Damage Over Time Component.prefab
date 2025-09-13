@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
 --- !u!1001 &100100000
@@ -53,3 +54,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_DamageAmount: 0
   m_EmeraldComponent: {fileID: 0}
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:2822075eb8f9373d5996268c0a0c5352d79c9029b1874680ce86e6a2fdcaff19
+size 1540
+>>>>>>> origin/main

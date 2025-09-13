@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
 --- !u!29 &1
@@ -10110,3 +10111,8 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2147472599}
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:7abfd5a7f8ade0e45e2eca2c83869ddcf13dabd23911ecfe883d7e68b3e0302a
+size 272186
+>>>>>>> origin/main

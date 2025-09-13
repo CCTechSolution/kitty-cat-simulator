@@ -18,6 +18,7 @@ public class BSceneHandler : MonoBehaviour
 
     void InAppload()
     {
+<<<<<<< HEAD
         Debug.Log("app open load call deliver");
         AdmobAdsManager.Instance.Btn_App_Load();
     }
@@ -25,6 +26,15 @@ public class BSceneHandler : MonoBehaviour
     {
         Debug.Log("app open show call deliver");
         AdmobAdsManager.Instance.Btn_App_Show();
+=======
+      //  Debug.Log("app open load call deliver");
+//        AdmobAdsManager.Instance.Btn_App_Load();
+    }
+    void InAppShow()
+    {
+       // Debug.Log("app open show call deliver");
+       // AdmobAdsManager.Instance.Btn_App_Show();
+>>>>>>> origin/main
     }
     
 }

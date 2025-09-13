@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
 --- !u!1 &100004
@@ -299,3 +300,8 @@ MonoBehaviour:
     slowDownRate: 20
     airControl: 0
     shellOffset: 0
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:b689e761b4b38ff9ea7eca048e2727e3457a7fac84c7a4e66048dbcbd9b3722b
+size 7460
+>>>>>>> origin/main

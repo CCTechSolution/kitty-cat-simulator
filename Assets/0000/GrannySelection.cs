@@ -17,12 +17,20 @@ public class GrannySelection : MonoBehaviour
     public GameObject reqCoinsGameobject;
     public ModesAd modeAdsHandler;
     public GameObject showAdAndSelectFree;
+<<<<<<< HEAD
     public GameObject UnlockGransBtn;
     [SerializeField] GameObject[] greenUI;
 
 
     
     private int[] grannyPrices = { 0, 500, 1000,1500 };
+=======
+    [SerializeField] GameObject[] greenUI;
+
+
+
+    private int[] grannyPrices = { 0, 500, 1000 };
+>>>>>>> origin/main
 
     public void DisableGreenUI()
     {
@@ -36,10 +44,14 @@ public class GrannySelection : MonoBehaviour
         CheckForNoAds();
     }
     void Start()
+<<<<<<< HEAD
     {
         Instance = this;
         DontDestroyOnLoad(this.gameObject);
 
+=======
+    {
+>>>>>>> origin/main
         currentIndex = PlayerPrefs.GetInt("SelectedGrannyIndex", 0);
     }
     private void OnEnable()
@@ -95,21 +107,36 @@ public class GrannySelection : MonoBehaviour
 
     public void ShowAdAndSelectGranny()
     {
+<<<<<<< HEAD
         AdmobAdsManager.Instance.ShowRewardedVideo(SelectGranny);
+=======
+//        AdmobAdsManager.Instance.ShowRewardedVideo(SelectGranny);
+>>>>>>> origin/main
     }
 
     public void UnlockGranny()
     {
         //MaxAdsManager.Instance.Btn_LS_Rew(UnlockGrannyAfterAd);
+<<<<<<< HEAD
         AdmobAdsManager.Instance.ShowRewardedVideo(UnlockGrannyAfterAd);
+=======
+      //  AdmobAdsManager.Instance.ShowRewardedVideo(UnlockGrannyAfterAd);
+>>>>>>> origin/main
     }
 
     public void ShowRewardedAd()
     {
+<<<<<<< HEAD
         if (AdmobAdsManager.Instance)
         {
             AdmobAdsManager.Instance.ShowRewardedVideo(UnlockGrannyAfterAd);
         }
+=======
+        //if (AdmobAdsManager.Instance)
+        //{
+           // AdmobAdsManager.Instance.ShowRewardedVideo(UnlockGrannyAfterAd);
+        //}
+>>>>>>> origin/main
     }
 
     void UnlockGrannyAfterAd()
@@ -172,6 +199,7 @@ public class GrannySelection : MonoBehaviour
     }
 
     public void UnlockAllGarns()
+<<<<<<< HEAD
     {
         //for (int i = 0; i < grannyPrefabs.Length; i++)
         //{
@@ -190,6 +218,15 @@ public class GrannySelection : MonoBehaviour
         PlayerPrefs.SetInt("GrannyUnlocked_" + 4, 1);
         PlayerPrefs.SetInt("GrannyUnlocked_" + 5, 1);
         PlayerPrefs.Save();
+=======
+    {
+        for (int i = 0; i < grannyPrefabs.Length; i++)
+        {
+            PlayerPrefs.SetInt("GrannyUnlocked_" + i, 1); // Unlock every pet
+        }
+        PlayerPrefs.Save();
+        Debug.Log("All pets unlocked!");
+>>>>>>> origin/main
         UpdateButtons();
     }
 
@@ -239,6 +276,7 @@ public class GrannySelection : MonoBehaviour
         DisableGreenUI();
         greenUI[0].SetActive(true);
     }
+<<<<<<< HEAD
 
 
 
@@ -252,4 +290,6 @@ public class GrannySelection : MonoBehaviour
         PlayerPrefs.Save();
         UpdateButtons();
     }
+=======
+>>>>>>> origin/main
 }

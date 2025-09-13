@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
 --- !u!1001 &3264063879321033465
@@ -129,3 +130,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   stringOfObject: _Cat trophy
   GrannyTag: Enemy
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:3f1f486ea5930b4161425b2b6ac81589886dc867e4f0fc078c66ac55296d7e82
+size 5129
+>>>>>>> origin/main

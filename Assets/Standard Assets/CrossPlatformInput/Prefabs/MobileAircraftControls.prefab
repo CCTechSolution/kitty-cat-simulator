@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
 --- !u!1 &100000
@@ -1167,3 +1168,8 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: BRAKE
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:05834bf4461de84f13b54060e2c188e01bc37c96e2f985b5bbab70d6d59b847c
+size 35230
+>>>>>>> origin/main

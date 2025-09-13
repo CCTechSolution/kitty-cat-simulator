@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
 --- !u!29 &1
@@ -1899,3 +1900,8 @@ Light:
   m_BounceIntensity: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:773a3e06438d3bdf4e8d368de69246738efef138124e4f90edf70c9a2e7c8deb
+size 63463
+>>>>>>> origin/main

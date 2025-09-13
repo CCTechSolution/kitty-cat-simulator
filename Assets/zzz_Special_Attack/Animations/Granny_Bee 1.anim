@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
 --- !u!74 &7400000
@@ -188792,3 +188793,8 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:175fec66a212b042a325ecca6ec1ea221b989aca9b45a2d4f718f9a00507a26f
+size 4664071
+>>>>>>> origin/main

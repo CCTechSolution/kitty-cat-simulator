@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
 --- !u!1 &2174471933925025203
@@ -1842,3 +1843,8 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:b258a372ab7389793cff0efa6d05cdbdf73a70d23e685af797e3b69d625a1d6e
+size 44962
+>>>>>>> origin/main

@@ -47,8 +47,13 @@ namespace UnityStandardAssets.Vehicles.Aeroplane
         {
             m_Rigidbody = GetComponent<Rigidbody>();
             // Store original drag settings, these are modified during flight.
+<<<<<<< HEAD
             m_OriginalDrag = m_Rigidbody.linearDamping;
             m_OriginalAngularDrag = m_Rigidbody.angularDamping;
+=======
+            m_OriginalDrag = m_Rigidbody.drag;
+            m_OriginalAngularDrag = m_Rigidbody.angularDrag;
+>>>>>>> origin/main
 
 			for (int i = 0; i < transform.childCount; i++ )
 			{
@@ -145,7 +150,11 @@ namespace UnityStandardAssets.Vehicles.Aeroplane
         private void CalculateForwardSpeed()
         {
             // Forward speed is the speed in the planes's forward direction (not the same as its velocity, eg if falling in a stall)
+<<<<<<< HEAD
             var localVelocity = transform.InverseTransformDirection(m_Rigidbody.linearVelocity);
+=======
+            var localVelocity = transform.InverseTransformDirection(m_Rigidbody.velocity);
+>>>>>>> origin/main
             ForwardSpeed = Mathf.Max(0, localVelocity.z);
         }
 
@@ -169,11 +178,19 @@ namespace UnityStandardAssets.Vehicles.Aeroplane
         private void CalculateDrag()
         {
             // increase the drag based on speed, since a constant drag doesn't seem "Real" (tm) enough
+<<<<<<< HEAD
             float extraDrag = m_Rigidbody.linearVelocity.magnitude*m_DragIncreaseFactor;
             // Air brakes work by directly modifying drag. This part is actually pretty realistic!
             m_Rigidbody.linearDamping = (AirBrakes ? (m_OriginalDrag + extraDrag)*m_AirBrakesEffect : m_OriginalDrag + extraDrag);
             // Forward speed affects angular drag - at high forward speed, it's much harder for the plane to spin
             m_Rigidbody.angularDamping = m_OriginalAngularDrag*ForwardSpeed;
+=======
+            float extraDrag = m_Rigidbody.velocity.magnitude*m_DragIncreaseFactor;
+            // Air brakes work by directly modifying drag. This part is actually pretty realistic!
+            m_Rigidbody.drag = (AirBrakes ? (m_OriginalDrag + extraDrag)*m_AirBrakesEffect : m_OriginalDrag + extraDrag);
+            // Forward speed affects angular drag - at high forward speed, it's much harder for the plane to spin
+            m_Rigidbody.angularDrag = m_OriginalAngularDrag*ForwardSpeed;
+>>>>>>> origin/main
         }
 
 
@@ -182,22 +199,39 @@ namespace UnityStandardAssets.Vehicles.Aeroplane
             // "Aerodynamic" calculations. This is a very simple approximation of the effect that a plane
             // will naturally try to align itself in the direction that it's facing when moving at speed.
             // Without this, the plane would behave a bit like the asteroids spaceship!
+<<<<<<< HEAD
             if (m_Rigidbody.linearVelocity.magnitude > 0)
             {
                 // compare the direction we're pointing with the direction we're moving:
                 m_AeroFactor = Vector3.Dot(transform.forward, m_Rigidbody.linearVelocity.normalized);
+=======
+            if (m_Rigidbody.velocity.magnitude > 0)
+            {
+                // compare the direction we're pointing with the direction we're moving:
+                m_AeroFactor = Vector3.Dot(transform.forward, m_Rigidbody.velocity.normalized);
+>>>>>>> origin/main
                 // multipled by itself results in a desirable rolloff curve of the effect
                 m_AeroFactor *= m_AeroFactor;
                 // Finally we calculate a new velocity by bending the current velocity direction towards
                 // the the direction the plane is facing, by an amount based on this aeroFactor
+<<<<<<< HEAD
                 var newVelocity = Vector3.Lerp(m_Rigidbody.linearVelocity, transform.forward*ForwardSpeed,
                                                m_AeroFactor*ForwardSpeed*m_AerodynamicEffect*Time.deltaTime);
                 m_Rigidbody.linearVelocity = newVelocity;
+=======
+                var newVelocity = Vector3.Lerp(m_Rigidbody.velocity, transform.forward*ForwardSpeed,
+                                               m_AeroFactor*ForwardSpeed*m_AerodynamicEffect*Time.deltaTime);
+                m_Rigidbody.velocity = newVelocity;
+>>>>>>> origin/main
 
                 // also rotate the plane towards the direction of movement - this should be a very small effect, but means the plane ends up
                 // pointing downwards in a stall
                 m_Rigidbody.rotation = Quaternion.Slerp(m_Rigidbody.rotation,
+<<<<<<< HEAD
                                                       Quaternion.LookRotation(m_Rigidbody.linearVelocity, transform.up),
+=======
+                                                      Quaternion.LookRotation(m_Rigidbody.velocity, transform.up),
+>>>>>>> origin/main
                                                       m_AerodynamicEffect*Time.deltaTime);
             }
         }
@@ -211,7 +245,11 @@ namespace UnityStandardAssets.Vehicles.Aeroplane
             // Add the engine power in the forward direction
             forces += EnginePower*transform.forward;
             // The direction that the lift force is applied is at right angles to the plane's velocity (usually, this is 'up'!)
+<<<<<<< HEAD
             var liftDirection = Vector3.Cross(m_Rigidbody.linearVelocity, transform.right).normalized;
+=======
+            var liftDirection = Vector3.Cross(m_Rigidbody.velocity, transform.right).normalized;
+>>>>>>> origin/main
             // The amount of lift drops off as the plane increases speed - in reality this occurs as the pilot retracts the flaps
             // shortly after takeoff, giving the plane less drag, but less lift. Because we don't simulate flaps, this is
             // a simple way of doing it automatically:

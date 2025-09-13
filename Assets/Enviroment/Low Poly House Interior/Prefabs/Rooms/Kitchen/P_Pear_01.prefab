@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
 --- !u!1001 &7761754661962042501
@@ -93,3 +94,8 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.06656883
   m_Center: {x: -0.0000000037252903, y: 0.06656883, z: 0}
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:329cf606aef295c8ed6e043ff2cb7086bd38c7cefeea04898090a7ea1e884948
+size 3496
+>>>>>>> origin/main

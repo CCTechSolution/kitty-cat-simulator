@@ -130,7 +130,11 @@ public class objPickup : MonoBehaviour
             Objrb.useGravity = true;
             objTransform.TryGetComponent(out BoxCollider collider);
             collider.enabled = true;
+<<<<<<< HEAD
             Objrb.linearVelocity = cameraTransform.forward * throwAmount * Time.deltaTime;
+=======
+            Objrb.velocity = cameraTransform.forward * throwAmount * Time.deltaTime;
+>>>>>>> origin/main
             pickedup = false;
             if (PickEffect != null)
             {

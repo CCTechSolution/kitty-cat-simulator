@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
 --- !u!1 &132787186472454297
@@ -86,3 +87,8 @@ MonoBehaviour:
   m_InputActionsPerSecond: 10
   m_RepeatDelay: 0.5
   m_ForceModuleActive: 0
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:e5363acd0298e5708b37e524b622b34d4967708dd01bfc01ca5cf1977950e9b9
+size 2593
+>>>>>>> origin/main

@@ -70,9 +70,15 @@ namespace UnityStandardAssets.Vehicles.Car
             else
             {
                 Vector3 fwd = transform.forward;
+<<<<<<< HEAD
                 if (m_Rigidbody.linearVelocity.magnitude > m_CarController.MaxSpeed*0.1f)
                 {
                     fwd = m_Rigidbody.linearVelocity;
+=======
+                if (m_Rigidbody.velocity.magnitude > m_CarController.MaxSpeed*0.1f)
+                {
+                    fwd = m_Rigidbody.velocity;
+>>>>>>> origin/main
                 }
 
                 float desiredSpeed = m_CarController.MaxSpeed;

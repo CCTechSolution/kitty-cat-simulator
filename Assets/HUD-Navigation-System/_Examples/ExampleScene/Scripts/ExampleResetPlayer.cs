@@ -21,7 +21,11 @@ namespace SickscoreGames.ExampleScene
 				// reset velocity
 				Rigidbody rBody = other.gameObject.GetComponent<Rigidbody> ();
 				if (rBody != null)
+<<<<<<< HEAD
 					rBody.linearVelocity = other.transform.forward * 5f;
+=======
+					rBody.velocity = other.transform.forward * 5f;
+>>>>>>> origin/main
 			}
 		}
 		#endregion

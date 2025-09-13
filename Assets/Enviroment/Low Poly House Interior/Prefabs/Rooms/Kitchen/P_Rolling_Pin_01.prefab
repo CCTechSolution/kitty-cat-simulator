@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
 --- !u!1001 &4441505739076633506
@@ -94,3 +95,8 @@ CapsuleCollider:
   m_Height: 0.049139403
   m_Direction: 1
   m_Center: {x: 0, y: 0.024569701, z: 0}
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:8783be466e9c2de5314dacfe6e653bf636801aec904d58908b56c0b3434732c5
+size 3503
+>>>>>>> origin/main

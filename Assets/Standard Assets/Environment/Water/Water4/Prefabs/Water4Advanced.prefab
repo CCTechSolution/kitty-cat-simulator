@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
 --- !u!1 &100000
@@ -496,3 +497,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   reflection: {fileID: 11400004}
   waterBase: {fileID: 11400008}
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:0a83eeae4df398406be44fa7eef7c3030f318637f9f60c2a2a481f357445776e
+size 13808
+>>>>>>> origin/main

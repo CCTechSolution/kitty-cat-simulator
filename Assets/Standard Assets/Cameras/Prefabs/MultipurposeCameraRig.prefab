@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
 --- !u!1 &100000
@@ -222,3 +223,8 @@ MonoBehaviour:
   m_SpinTurnLimit: 90
   m_TargetVelocityLowerLimit: 4
   m_SmoothTurnTime: 0.2
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:0ebfc2e31d244d17713516e3f6749b50ef559bfe194b505ce859e0f7fbb6cb05
+size 5837
+>>>>>>> origin/main

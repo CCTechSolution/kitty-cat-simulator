@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ; FBX 6.1.0 project file
 ; Created by Blender FBX Exporter
 ; for support mail: ideasman42@gmail.com
@@ -29202,3 +29203,8 @@ Version5:  {
 		DefaultViewingMode: 0
 	}
 }
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:18d73b66d014adfadf67ce8e77506592dd8c92a3bd0b6e58a6c774a475650540
+size 1159683
+>>>>>>> origin/main

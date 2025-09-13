@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
 --- !u!1 &1171728967299072
@@ -694,3 +695,8 @@ MonoBehaviour:
   m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
   m_EffectDistance: {x: 1, y: -1}
   m_UseGraphicAlpha: 1
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:83c0a6b0ac3f4b7d2ca8ff63363e625de4844a0edfb7278b2212c2ed2ab82e62
+size 20431
+>>>>>>> origin/main

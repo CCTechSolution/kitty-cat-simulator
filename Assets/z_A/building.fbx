@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ; FBX 7.7.0 project file
 ; ----------------------------------------------------
 
@@ -23477,3 +23478,8 @@ Connections:  {
 Takes:  {
 	Current: ""
 }
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:bd700dd52b8cf57849fb329b612104e072eeb61371fa4fa8859b63e1201af191
+size 8219102
+>>>>>>> origin/main

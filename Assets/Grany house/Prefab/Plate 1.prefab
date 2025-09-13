@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
 --- !u!1 &6144497460987692328
@@ -144,3 +145,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   wholeGameobject: {fileID: 6144497460987692328}
   breakGameobject: {fileID: 1452143777144388694, guid: 7d59389d4b7fe0149a3e509d574a781a, type: 3}
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:045be119802e7ab298d4e5f12bf9649c4c292fe8f0096a7fdf51eb9312965d22
+size 4401
+>>>>>>> origin/main

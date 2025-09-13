@@ -1,7 +1,11 @@
 fileFormatVersion: 2
 guid: 3b69ee042fa0d904785c3122775946d6
 ModelImporter:
+<<<<<<< HEAD
   serializedVersion: 24200
+=======
+  serializedVersion: 21300
+>>>>>>> origin/main
   internalIDToNameTable: []
   externalObjects:
   - first:
@@ -61,6 +65,11 @@ ModelImporter:
     optimizeGameObjects: 0
     removeConstantScaleCurves: 1
     motionNodeName: 
+<<<<<<< HEAD
+=======
+    rigImportErrors: 
+    rigImportWarnings: 
+>>>>>>> origin/main
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
@@ -83,7 +92,10 @@ ModelImporter:
     addColliders: 0
     useSRGBMaterialColor: 1
     sortHierarchyByName: 1
+<<<<<<< HEAD
     importPhysicalCameras: 1
+=======
+>>>>>>> origin/main
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
@@ -101,9 +113,12 @@ ModelImporter:
     maxBonesPerVertex: 4
     minBoneWeight: 0.001
     optimizeBones: 1
+<<<<<<< HEAD
     generateMeshLods: 0
     meshLodGenerationFlags: 0
     maximumMeshLod: -1
+=======
+>>>>>>> origin/main
     meshOptimizationFlags: -1
     indexFormat: 1
     secondaryUVAngleDistortion: 8
@@ -123,7 +138,13 @@ ModelImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
+<<<<<<< HEAD
   referencedClips: []
+=======
+  referencedClips:
+  - d5ec5ec1190bd2d419e6f298e7422427
+  - 3a2e3e84f84d1ac48a9460344530f11d
+>>>>>>> origin/main
   importAnimation: 1
   humanDescription:
     serializedVersion: 3
@@ -737,8 +758,12 @@ ModelImporter:
     - name: mixamorig:LeftForeArm
       parentName: mixamorig:LeftArm
       position: {x: 5.508667e-12, y: 0.31292158, z: -1.4210854e-16}
+<<<<<<< HEAD
       rotation: {x: -0.000000059604634, y: 0.00000005960464, z: -0.000000059604634,
         w: 1}
+=======
+      rotation: {x: -0.000000059604634, y: 0.00000005960464, z: -0.000000059604634, w: 1}
+>>>>>>> origin/main
       scale: {x: 1, y: 1, z: 1}
     - name: mixamorig:LeftHand
       parentName: mixamorig:LeftForeArm
@@ -753,14 +778,22 @@ ModelImporter:
     - name: mixamorig:LeftHandThumb2
       parentName: mixamorig:LeftHandThumb1
       position: {x: -9.211263e-12, y: 0.030206503, z: -1.0849135e-11}
+<<<<<<< HEAD
       rotation: {x: 0.000000013243638, y: -0.000000053878185, z: 0.0000007584829,
         w: 1}
+=======
+      rotation: {x: 0.000000013243638, y: -0.000000053878185, z: 0.0000007584829, w: 1}
+>>>>>>> origin/main
       scale: {x: 1, y: 1, z: 1}
     - name: mixamorig:LeftHandThumb3
       parentName: mixamorig:LeftHandThumb2
       position: {x: -8.740883e-12, y: 0.028657198, z: -1.0297753e-11}
+<<<<<<< HEAD
       rotation: {x: 0.000000034001665, y: 0.000000018493004, z: 0.000000036412764,
         w: 1}
+=======
+      rotation: {x: 0.000000034001665, y: 0.000000018493004, z: 0.000000036412764, w: 1}
+>>>>>>> origin/main
       scale: {x: 1, y: 1, z: 1}
     - name: mixamorig:LeftHandThumb4
       parentName: mixamorig:LeftHandThumb3
@@ -775,8 +808,12 @@ ModelImporter:
     - name: mixamorig:LeftHandIndex2
       parentName: mixamorig:LeftHandIndex1
       position: {x: -2.1613307e-11, y: 0.033485334, z: 2.2737367e-15}
+<<<<<<< HEAD
       rotation: {x: -0.00000033781467, y: 0.00000011926448, z: -0.00000008875472,
         w: 1}
+=======
+      rotation: {x: -0.00000033781467, y: 0.00000011926448, z: -0.00000008875472, w: 1}
+>>>>>>> origin/main
       scale: {x: 1, y: 1, z: 1}
     - name: mixamorig:LeftHandIndex3
       parentName: mixamorig:LeftHandIndex2
@@ -801,8 +838,12 @@ ModelImporter:
     - name: mixamorig:LeftHandMiddle3
       parentName: mixamorig:LeftHandMiddle2
       position: {x: -1.9476877e-11, y: 0.030181121, z: -2.2737366e-14}
+<<<<<<< HEAD
       rotation: {x: 0.00000006129264, y: -0.000000030111266, z: 0.000000036318337,
         w: 1}
+=======
+      rotation: {x: 0.00000006129264, y: -0.000000030111266, z: 0.000000036318337, w: 1}
+>>>>>>> origin/main
       scale: {x: 1, y: 1, z: 1}
     - name: mixamorig:LeftHandMiddle4
       parentName: mixamorig:LeftHandMiddle3
@@ -842,8 +883,12 @@ ModelImporter:
     - name: mixamorig:LeftHandPinky3
       parentName: mixamorig:LeftHandPinky2
       position: {x: -1.5393792e-11, y: 0.023959808, z: -4.6469495e-14}
+<<<<<<< HEAD
       rotation: {x: 0.00000035350786, y: -0.000000015295544, z: 0.00000018884735,
         w: 1}
+=======
+      rotation: {x: 0.00000035350786, y: -0.000000015295544, z: 0.00000018884735, w: 1}
+>>>>>>> origin/main
       scale: {x: 1, y: 1, z: 1}
     - name: mixamorig:LeftHandPinky4
       parentName: mixamorig:LeftHandPinky3
@@ -908,8 +953,12 @@ ModelImporter:
     - name: mixamorig:RightForeArm
       parentName: mixamorig:RightArm
       position: {x: -2.1982415e-16, y: 0.312922, z: 1.4210854e-16}
+<<<<<<< HEAD
       rotation: {x: -0.000000059604634, y: -0.00000005960464, z: 0.000000059604634,
         w: 1}
+=======
+      rotation: {x: -0.000000059604634, y: -0.00000005960464, z: 0.000000059604634, w: 1}
+>>>>>>> origin/main
       scale: {x: 1, y: 1, z: 1}
     - name: mixamorig:RightHand
       parentName: mixamorig:RightForeArm
@@ -929,8 +978,12 @@ ModelImporter:
     - name: mixamorig:RightHandThumb3
       parentName: mixamorig:RightHandThumb2
       position: {x: -7.105427e-16, y: 0.028653542, z: -1.1368684e-15}
+<<<<<<< HEAD
       rotation: {x: -0.00000033510315, y: -0.00000002376324, z: 0.000000053351343,
         w: 1}
+=======
+      rotation: {x: -0.00000033510315, y: -0.00000002376324, z: 0.000000053351343, w: 1}
+>>>>>>> origin/main
       scale: {x: 1, y: 1, z: 1}
     - name: mixamorig:RightHandThumb4
       parentName: mixamorig:RightHandThumb3
@@ -990,8 +1043,12 @@ ModelImporter:
     - name: mixamorig:RightHandRing3
       parentName: mixamorig:RightHandRing2
       position: {x: -1.5321078e-16, y: 0.027288, z: 2.842171e-16}
+<<<<<<< HEAD
       rotation: {x: -0.000000119144644, y: 0.00000001482369, z: -0.00000017265278,
         w: 1}
+=======
+      rotation: {x: -0.000000119144644, y: 0.00000001482369, z: -0.00000017265278, w: 1}
+>>>>>>> origin/main
       scale: {x: 1, y: 1, z: 1}
     - name: mixamorig:RightHandRing4
       parentName: mixamorig:RightHandRing3
@@ -1116,7 +1173,10 @@ ModelImporter:
   humanoidOversampling: 1
   avatarSetup: 1
   addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+<<<<<<< HEAD
   importBlendShapeDeformPercent: 0
+=======
+>>>>>>> origin/main
   remapMaterialsIfMaterialImportModeIsNone: 0
   additionalBone: 0
   userData: 

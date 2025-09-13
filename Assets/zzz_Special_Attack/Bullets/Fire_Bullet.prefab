@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
 --- !u!1 &5593120956975115903
@@ -253,3 +254,8 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 3506703918043602005}
   m_PrefabAsset: {fileID: 0}
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:65cccc871cb7d1873e15891a0698478aec3a78f30714e08bebd370839e1b663d
+size 8337
+>>>>>>> origin/main

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
 --- !u!1001 &8349780813876186311
@@ -94,3 +95,8 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -498047407500203817, guid: 6421a4aa89bc0c241905f22bbc6e3618, type: 3}
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:a8f0424a4ca21014ca794607aa44231c26978a7661b41bdb85e4ea07ff9e3db2
+size 3545
+>>>>>>> origin/main

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
 --- !u!1 &4500395207769069887
@@ -58,3 +59,8 @@ MonoBehaviour:
   Game_Pannel: 0
   Fight: 0
   Shoot_Transform: 0
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:a0b23bc6f44d3e03090282ad1b7eeacc619295d4ce4a9bda7060866a34efe694
+size 1589
+>>>>>>> origin/main

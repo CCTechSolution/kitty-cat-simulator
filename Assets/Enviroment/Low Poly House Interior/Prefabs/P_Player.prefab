@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
 --- !u!1 &660700594645044313
@@ -257,3 +258,8 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 10.2
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:d47f236c53ea42e869b30cb2a841f12fcd0b436567bbe6d9d0ad597432040170
+size 6815
+>>>>>>> origin/main

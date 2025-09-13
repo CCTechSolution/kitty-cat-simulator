@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
 --- !u!29 &1
@@ -44378,3 +44379,8 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:cdf2fe9e9139c46c03d6d4a591c8b8d5df65c82e4c1fbcac35a5906377cc7a48
+size 1218679
+>>>>>>> origin/main

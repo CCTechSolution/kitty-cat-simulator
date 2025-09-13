@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
 --- !u!1001 &429692262531919542
@@ -93,3 +94,8 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.8755575, y: 0.0000027847288, z: 1.8755665}
   m_Center: {x: 0.9377784, y: -0.0000013923644, z: 0.93777347}
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:9d01d4c9b60cacc11187236e1f7cf6c95437f6cb4f9ce9e924347dcc9f7fba9c
+size 3530
+>>>>>>> origin/main

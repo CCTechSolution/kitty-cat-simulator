@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
 --- !u!1 &1260827090746946
@@ -9255,3 +9256,8 @@ ParticleSystemRenderer:
   m_MeshWeighting2: 1
   m_MeshWeighting3: 1
   m_MaskInteraction: 0
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:6b11d593276833a91aa55b07ab53be84c35457c6457cef60ac7aeb1a8f508361
+size 224054
+>>>>>>> origin/main

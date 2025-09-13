@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
 --- !u!29 &1
@@ -795,3 +796,8 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4a548293fc7474fe89ef6a4cfabf7031, type: 3}
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:0d2b249edf63c76a93fd7474ec5e2b650e72a70c53fc7d366422ed4ffff7cf4f
+size 22863
+>>>>>>> origin/main

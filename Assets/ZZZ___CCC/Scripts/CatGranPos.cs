@@ -59,12 +59,16 @@ public class CatGranPos : MonoBehaviour
         catTransfrom.rotation = Quaternion.Euler(0f, catYRot, 0f);
         grannyTransform.gameObject.SetActive(false);
         grannyTransform.position = enemyPos;
+<<<<<<< HEAD
         if (granny.navMeshAgent != null && granny.navMeshAgent.isActiveAndEnabled && granny.navMeshAgent.isOnNavMesh)
         {
             granny.navMeshAgent.ResetPath();
         }
 
         //granny.navMeshAgent.ResetPath();
+=======
+        granny.navMeshAgent.ResetPath();
+>>>>>>> origin/main
         catTransfrom.gameObject.SetActive(true);
         grannyTransform.gameObject.SetActive(true);
     }

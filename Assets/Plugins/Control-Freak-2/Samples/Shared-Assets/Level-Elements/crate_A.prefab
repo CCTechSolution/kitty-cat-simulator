@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
 --- !u!1 &100000
@@ -120,3 +121,8 @@ Prefab:
 --- !u!1002 &100100001
 EditorExtensionImpl:
   serializedVersion: 6
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:601e3d7e2bd5067f4bf0455497b390e8023f281d77668ad84a12627a74d53b1d
+size 3092
+>>>>>>> origin/main

@@ -3,7 +3,11 @@
 --- !u!129 &1
 PlayerSettings:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD
   serializedVersion: 28
+=======
+  serializedVersion: 26
+>>>>>>> origin/main
   productGUID: 2a971c75d5711d747bc26ba7837830d3
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
@@ -52,7 +56,10 @@ PlayerSettings:
   m_StereoRenderingPath: 0
   m_ActiveColorSpace: 1
   unsupportedMSAAFallback: 0
+<<<<<<< HEAD
   m_SpriteBatchMaxVertexCount: 65535
+=======
+>>>>>>> origin/main
   m_SpriteBatchVertexThreshold: 300
   m_MTRendering: 1
   mipStripping: 0
@@ -74,18 +81,29 @@ PlayerSettings:
   androidRenderOutsideSafeArea: 1
   androidUseSwappy: 0
   androidBlitType: 0
+<<<<<<< HEAD
   androidResizeableActivity: 0
+=======
+  androidResizableWindow: 0
+>>>>>>> origin/main
   androidDefaultWindowWidth: 1920
   androidDefaultWindowHeight: 1080
   androidMinimumWindowWidth: 400
   androidMinimumWindowHeight: 300
   androidFullscreenMode: 1
   androidAutoRotationBehavior: 1
+<<<<<<< HEAD
   androidPredictiveBackSupport: 1
   androidApplicationEntry: 1
   defaultIsNativeResolution: 1
   macRetinaSupport: 1
   runInBackground: 0
+=======
+  defaultIsNativeResolution: 1
+  macRetinaSupport: 1
+  runInBackground: 0
+  captureSingleScreen: 0
+>>>>>>> origin/main
   muteOtherAudioSources: 0
   Prepare IOS For Recording: 0
   Force IOS Speakers When Recording: 0
@@ -101,7 +119,10 @@ PlayerSettings:
   useMacAppStoreValidation: 0
   macAppStoreCategory: public.app-category.games
   gpuSkinning: 1
+<<<<<<< HEAD
   meshDeformation: 2
+=======
+>>>>>>> origin/main
   xboxPIXTextureCapture: 0
   xboxEnableAvatar: 0
   xboxEnableKinect: 0
@@ -133,9 +154,16 @@ PlayerSettings:
   switchAllowGpuScratchShrinking: 0
   switchNVNMaxPublicTextureIDCount: 0
   switchNVNMaxPublicSamplerIDCount: 0
+<<<<<<< HEAD
   switchMaxWorkerMultiple: 8
   switchNVNGraphicsFirmwareMemory: 32
   switchGraphicsJobsSyncAfterKick: 1
+=======
+  switchNVNGraphicsFirmwareMemory: 32
+  switchMaxWorkerMultiple: 8
+  stadiaPresentMode: 0
+  stadiaTargetFramerate: 0
+>>>>>>> origin/main
   vulkanNumSwapchainBuffers: 3
   vulkanEnableSetSRGBWrite: 0
   vulkanEnablePreTransform: 1
@@ -144,7 +172,11 @@ PlayerSettings:
   loadStoreDebugModeEnabled: 0
   visionOSBundleVersion: 1.0
   tvOSBundleVersion: 1.0
+<<<<<<< HEAD
   bundleVersion: 0.0.2
+=======
+  bundleVersion: 1.3
+>>>>>>> origin/main
   preloadedAssets: []
   metroInputSource: 0
   wsaTransparentSwapchain: 0
@@ -165,6 +197,7 @@ PlayerSettings:
   resetResolutionOnWindowResize: 0
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
+<<<<<<< HEAD
   androidMinAspectRatio: 1
   applicationIdentifier:
     Android: com.kitty.cat.simulator.angry.granny.chase
@@ -179,6 +212,21 @@ PlayerSettings:
   AndroidBundleVersionCode: 2
   AndroidMinSdkVersion: 23
   AndroidTargetSdkVersion: 35
+=======
+  applicationIdentifier:
+    Android: com.bad.kitty.naughty.cat.simulator.angry.granny.chase.
+    Standalone: com.Unity-Technologies.com.unity.template.urp-blank
+    iPhone: com.grannycatgame
+  buildNumber:
+    Standalone: 0
+    VisionOS: 0
+    iPhone: 4
+    tvOS: 0
+  overrideDefaultApplicationIdentifier: 1
+  AndroidBundleVersionCode: 1
+  AndroidMinSdkVersion: 23
+  AndroidTargetSdkVersion: 34
+>>>>>>> origin/main
   AndroidPreferredInstallLocation: 1
   aotOptions: 
   stripEngineCode: 1
@@ -187,18 +235,29 @@ PlayerSettings:
   ForceInternetPermission: 0
   ForceSDCardPermission: 0
   CreateWallpaper: 0
+<<<<<<< HEAD
   androidSplitApplicationBinary: 0
+=======
+  APKExpansionFiles: 0
+>>>>>>> origin/main
   keepLoadedShadersAlive: 0
   StripUnusedMeshComponents: 0
   strictShaderVariantMatching: 0
   VertexChannelCompressionMask: 4054
   iPhoneSdkVersion: 988
+<<<<<<< HEAD
   iOSSimulatorArchitecture: 0
   iOSTargetOSVersionString: 14.0
   tvOSSdkVersion: 0
   tvOSSimulatorArchitecture: 0
   tvOSRequireExtendedGameController: 0
   tvOSTargetOSVersionString: 13.0
+=======
+  iOSTargetOSVersionString: 14.0
+  tvOSSdkVersion: 0
+  tvOSRequireExtendedGameController: 0
+  tvOSTargetOSVersionString: 12.0
+>>>>>>> origin/main
   VisionOSSdkVersion: 0
   VisionOSTargetOSVersionString: 1.0
   uIPrerenderedIcon: 0
@@ -225,6 +284,10 @@ PlayerSettings:
     rgba: 0
   iOSLaunchScreenFillPct: 100
   iOSLaunchScreenSize: 100
+<<<<<<< HEAD
+=======
+  iOSLaunchScreenCustomXibPath: 
+>>>>>>> origin/main
   iOSLaunchScreeniPadType: 0
   iOSLaunchScreeniPadImage: {fileID: 0}
   iOSLaunchScreeniPadBackgroundColor:
@@ -232,6 +295,10 @@ PlayerSettings:
     rgba: 0
   iOSLaunchScreeniPadFillPct: 100
   iOSLaunchScreeniPadSize: 100
+<<<<<<< HEAD
+=======
+  iOSLaunchScreeniPadCustomXibPath: 
+>>>>>>> origin/main
   iOSLaunchScreenCustomStoryboardPath: 
   iOSLaunchScreeniPadCustomStoryboardPath: 
   iOSDeviceRequirements: []
@@ -251,7 +318,11 @@ PlayerSettings:
   iOSManualSigningProvisioningProfileType: 0
   tvOSManualSigningProvisioningProfileType: 0
   VisionOSManualSigningProvisioningProfileType: 0
+<<<<<<< HEAD
   appleEnableAutomaticSigning: 2
+=======
+  appleEnableAutomaticSigning: 1
+>>>>>>> origin/main
   iOSRequireARKit: 0
   iOSAutomaticallyDetectAndAddCapabilities: 1
   appleEnableProMotion: 0
@@ -268,11 +339,16 @@ PlayerSettings:
   useCustomGradleSettingsTemplate: 1
   useCustomProguardFile: 0
   AndroidTargetArchitectures: 3
+<<<<<<< HEAD
+=======
+  AndroidTargetDevices: 0
+>>>>>>> origin/main
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 2800000, guid: 1b5cdf3914a79a344ba6310fa7a8ede8, type: 3}
   AndroidKeystoreName: '{inproject}: KeyStore/cctech123.keystore'
   AndroidKeyaliasName: cctech
   AndroidEnableArmv9SecurityFeatures: 0
+<<<<<<< HEAD
   AndroidEnableArm64MTE: 0
   AndroidBuildApkPerCpuArchitecture: 0
   AndroidTVCompatibility: 0
@@ -280,6 +356,11 @@ PlayerSettings:
   androidAppCategory: 3
   useAndroidAppCategory: 1
   androidAppCategoryOther: 
+=======
+  AndroidBuildApkPerCpuArchitecture: 0
+  AndroidTVCompatibility: 0
+  AndroidIsGame: 1
+>>>>>>> origin/main
   AndroidEnableTango: 0
   androidEnableBanner: 1
   androidUseLowAccuracyLocation: 0
@@ -289,12 +370,19 @@ PlayerSettings:
     height: 180
     banner: {fileID: 0}
   androidGamepadSupportLevel: 0
+<<<<<<< HEAD
+=======
+  chromeosInputEmulation: 1
+>>>>>>> origin/main
   AndroidMinifyRelease: 0
   AndroidMinifyDebug: 0
   AndroidValidateAppBundleSize: 1
   AndroidAppBundleSizeToValidate: 150
+<<<<<<< HEAD
   AndroidReportGooglePlayAppDependencies: 1
   androidSymbolsSizeThreshold: 800
+=======
+>>>>>>> origin/main
   m_BuildTargetIcons:
   - m_BuildTarget: 
     m_Icons:
@@ -553,12 +641,19 @@ PlayerSettings:
     iPhone: 1
     tvOS: 1
   m_BuildTargetGroupLightmapEncodingQuality:
+<<<<<<< HEAD
   - serializedVersion: 2
     m_BuildTarget: Android
     m_EncodingQuality: 1
   m_BuildTargetGroupHDRCubemapEncodingQuality:
   - serializedVersion: 2
     m_BuildTarget: Android
+=======
+  - m_BuildTarget: Android
+    m_EncodingQuality: 1
+  m_BuildTargetGroupHDRCubemapEncodingQuality:
+  - m_BuildTarget: Android
+>>>>>>> origin/main
     m_EncodingQuality: 1
   m_BuildTargetGroupLightmapSettings: []
   m_BuildTargetGroupLoadStoreDebugModeSettings: []
@@ -566,6 +661,7 @@ PlayerSettings:
   - m_BuildTarget: Android
     m_Encoding: 1
   m_BuildTargetDefaultTextureCompressionFormat:
+<<<<<<< HEAD
   - serializedVersion: 3
     m_BuildTarget: Android
     m_Formats: 03000000
@@ -576,6 +672,13 @@ PlayerSettings:
   runPlayModeTestAsEditModeTest: 0
   actionOnDotNetUnhandledException: 1
   editorGfxJobOverride: 1
+=======
+  - m_BuildTarget: Android
+    m_Format: 3
+  playModeTestRunnerEnabled: 0
+  runPlayModeTestAsEditModeTest: 0
+  actionOnDotNetUnhandledException: 1
+>>>>>>> origin/main
   enableInternalProfiler: 0
   logObjCUncaughtExceptions: 1
   enableCrashReportAPI: 0
@@ -583,7 +686,11 @@ PlayerSettings:
   locationUsageDescription: 
   microphoneUsageDescription: 
   bluetoothUsageDescription: 
+<<<<<<< HEAD
   macOSTargetOSVersion: 11.0
+=======
+  macOSTargetOSVersion: 10.13.0
+>>>>>>> origin/main
   switchNMETAOverride: 
   switchNetLibKey: 
   switchSocketMemoryPoolSize: 6144
@@ -721,14 +828,20 @@ PlayerSettings:
   switchSocketBufferEfficiency: 4
   switchSocketInitializeEnabled: 1
   switchNetworkInterfaceManagerInitializeEnabled: 1
+<<<<<<< HEAD
   switchDisableHTCSPlayerConnection: 0
+=======
+>>>>>>> origin/main
   switchUseNewStyleFilepaths: 0
   switchUseLegacyFmodPriorities: 0
   switchUseMicroSleepForYield: 1
   switchEnableRamDiskSupport: 0
   switchMicroSleepForYieldTime: 25
   switchRamDiskSpaceSize: 12
+<<<<<<< HEAD
   switchUpgradedPlayerSettingsToNMETA: 0
+=======
+>>>>>>> origin/main
   ps4NPAgeRating: 12
   ps4NPTitleSecret: 
   ps4NPTrophyPackPath: 
@@ -834,11 +947,14 @@ PlayerSettings:
   webGLMemoryGeometricGrowthStep: 0.2
   webGLMemoryGeometricGrowthCap: 96
   webGLPowerPreference: 2
+<<<<<<< HEAD
   webGLWebAssemblyTable: 0
   webGLWebAssemblyBigInt: 0
   webGLCloseOnQuit: 0
   webWasm2023: 0
   webEnableSubmoduleStrippingCompatibility: 0
+=======
+>>>>>>> origin/main
   scriptingDefineSymbols:
     Android: CROSS_PLATFORM_INPUT;MOBILE_INPUT;CF_FORCE_MOBILE_MODE;EMERALD_AI_PRESENT
     Standalone: CROSS_PLATFORM_INPUT;EMERALD_AI_PRESENT
@@ -850,7 +966,10 @@ PlayerSettings:
     Android: 1
   il2cppCompilerConfiguration: {}
   il2cppCodeGeneration: {}
+<<<<<<< HEAD
   il2cppStacktraceInformation: {}
+=======
+>>>>>>> origin/main
   managedStrippingLevel:
     EmbeddedLinux: 1
     GameCoreScarlett: 1
@@ -875,7 +994,10 @@ PlayerSettings:
   gcIncremental: 1
   gcWBarrierValidation: 0
   apiCompatibilityLevelPerPlatform: {}
+<<<<<<< HEAD
   editorAssembliesCompatibilityLevel: 1
+=======
+>>>>>>> origin/main
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
   metroPackageName: Cat and Granny_CC_Tech
@@ -952,6 +1074,7 @@ PlayerSettings:
   hmiPlayerDataPath: 
   hmiForceSRGBBlit: 1
   embeddedLinuxEnableGamepadInput: 1
+<<<<<<< HEAD
   hmiCpuConfiguration: 
   hmiLogStartupTiming: 0
   qnxGraphicConfPath: 
@@ -964,12 +1087,27 @@ PlayerSettings:
   qualitySettingsNames: []
   projectName: 'Naughty Cat Bad Granny : Hell'
   organizationId: mabhtbura-hnnaw
+=======
+  hmiLogStartupTiming: 0
+  hmiCpuConfiguration: 
+  apiCompatibilityLevel: 6
+  activeInputHandler: 0
+  windowsGamepadBackendHint: 0
+  cloudProjectId: e588b936-2cb3-4c04-92a4-73efbe5a4a2f
+  framebufferDepthMemorylessMode: 0
+  qualitySettingsNames: []
+  projectName: truuuvk
+  organizationId: cctechsolution
+>>>>>>> origin/main
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   hmiLoadingImage: {fileID: 0}
   platformRequiresReadableAssets: 0
   virtualTexturingSupportEnabled: 0
   insecureHttpOption: 0
+<<<<<<< HEAD
   androidVulkanDenyFilterList: []
   androidVulkanAllowFilterList: []
   androidVulkanDeviceFilterListAsset: {fileID: 0}
+=======
+>>>>>>> origin/main

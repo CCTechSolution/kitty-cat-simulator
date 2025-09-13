@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
 --- !u!1 &100000
@@ -143,3 +144,8 @@ MonoBehaviour:
   tiltAroundAxis: 1
   fullTiltAngle: -35
   centreAngleOffset: 45
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:760416fcda85799b3650dc78a75e610991467cc8c71b0386f84693dc8c80ca96
+size 3900
+>>>>>>> origin/main

@@ -51,7 +51,11 @@ namespace UnityStandardAssets.Vehicles.Car
         public bool Skidding { get; private set; }
         public float BrakeInput { get; private set; }
         public float CurrentSteerAngle{ get { return m_SteerAngle; }}
+<<<<<<< HEAD
         public float CurrentSpeed{ get { return m_Rigidbody.linearVelocity.magnitude*2.23693629f; }}
+=======
+        public float CurrentSpeed{ get { return m_Rigidbody.velocity.magnitude*2.23693629f; }}
+>>>>>>> origin/main
         public float MaxSpeed{get { return m_Topspeed; }}
         public float Revs { get; private set; }
         public float AccelInput { get; private set; }
@@ -175,20 +179,32 @@ namespace UnityStandardAssets.Vehicles.Car
 
         private void CapSpeed()
         {
+<<<<<<< HEAD
             float speed = m_Rigidbody.linearVelocity.magnitude;
+=======
+            float speed = m_Rigidbody.velocity.magnitude;
+>>>>>>> origin/main
             switch (m_SpeedType)
             {
                 case SpeedType.MPH:
 
                     speed *= 2.23693629f;
                     if (speed > m_Topspeed)
+<<<<<<< HEAD
                         m_Rigidbody.linearVelocity = (m_Topspeed/2.23693629f) * m_Rigidbody.linearVelocity.normalized;
+=======
+                        m_Rigidbody.velocity = (m_Topspeed/2.23693629f) * m_Rigidbody.velocity.normalized;
+>>>>>>> origin/main
                     break;
 
                 case SpeedType.KPH:
                     speed *= 3.6f;
                     if (speed > m_Topspeed)
+<<<<<<< HEAD
                         m_Rigidbody.linearVelocity = (m_Topspeed/3.6f) * m_Rigidbody.linearVelocity.normalized;
+=======
+                        m_Rigidbody.velocity = (m_Topspeed/3.6f) * m_Rigidbody.velocity.normalized;
+>>>>>>> origin/main
                     break;
             }
         }
@@ -222,7 +238,11 @@ namespace UnityStandardAssets.Vehicles.Car
 
             for (int i = 0; i < 4; i++)
             {
+<<<<<<< HEAD
                 if (CurrentSpeed > 5 && Vector3.Angle(transform.forward, m_Rigidbody.linearVelocity) < 50f)
+=======
+                if (CurrentSpeed > 5 && Vector3.Angle(transform.forward, m_Rigidbody.velocity) < 50f)
+>>>>>>> origin/main
                 {
                     m_WheelColliders[i].brakeTorque = m_BrakeTorque*footbrake;
                 }
@@ -250,7 +270,11 @@ namespace UnityStandardAssets.Vehicles.Car
             {
                 var turnadjust = (transform.eulerAngles.y - m_OldRotation) * m_SteerHelper;
                 Quaternion velRotation = Quaternion.AngleAxis(turnadjust, Vector3.up);
+<<<<<<< HEAD
                 m_Rigidbody.linearVelocity = velRotation * m_Rigidbody.linearVelocity;
+=======
+                m_Rigidbody.velocity = velRotation * m_Rigidbody.velocity;
+>>>>>>> origin/main
             }
             m_OldRotation = transform.eulerAngles.y;
         }
@@ -260,7 +284,11 @@ namespace UnityStandardAssets.Vehicles.Car
         private void AddDownForce()
         {
             m_WheelColliders[0].attachedRigidbody.AddForce(-transform.up*m_Downforce*
+<<<<<<< HEAD
                                                          m_WheelColliders[0].attachedRigidbody.linearVelocity.magnitude);
+=======
+                                                         m_WheelColliders[0].attachedRigidbody.velocity.magnitude);
+>>>>>>> origin/main
         }
 
 

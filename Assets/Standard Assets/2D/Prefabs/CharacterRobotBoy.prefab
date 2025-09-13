@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
 --- !u!1 &100000
@@ -260,3 +261,8 @@ Transform:
   m_Father: {fileID: 400002}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:9f8115fb7cb2f83139a3f6fed52ed5eff6c0a6b68ec66872f94c02b3f9d1a0fc
+size 7046
+>>>>>>> origin/main

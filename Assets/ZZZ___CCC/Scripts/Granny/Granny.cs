@@ -159,6 +159,7 @@ public class Granny : MonoBehaviour
     }
 
     public void EnemyCanMove()
+<<<<<<< HEAD
     {
         if (navMeshAgent != null && navMeshAgent.isActiveAndEnabled && navMeshAgent.isOnNavMesh)
         {
@@ -166,6 +167,10 @@ public class Granny : MonoBehaviour
 
         }
         //navMeshAgent.isStopped = false;
+=======
+    {
+        navMeshAgent.isStopped = false;
+>>>>>>> origin/main
     }
     public void EnemyCannotMove()
     {

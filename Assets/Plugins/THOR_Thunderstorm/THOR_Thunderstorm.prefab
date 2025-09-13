@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
 --- !u!1 &1378618051450866
@@ -2541,3 +2542,8 @@ MonoBehaviour:
   - {fileID: 4300016, guid: 94d512d69f80f104ca5f9c9ca9ef452d, type: 3}
   - {fileID: 4300014, guid: 94d512d69f80f104ca5f9c9ca9ef452d, type: 3}
   lightIsActive: 0
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:959f9603ff76801296952c1b86dad3f6c40e48d11ce19bf030fe5722b77f0fd6
+size 60418
+>>>>>>> origin/main

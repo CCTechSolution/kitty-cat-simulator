@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
 --- !u!29 &1
@@ -9281,3 +9282,8 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6678052331675207148}
   m_Mesh: {fileID: -1438742426042762112, guid: efb14f47ec47d4c43bf0a8806d78012c, type: 3}
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:df7406ac9c31b509adcfcc95e0206f58737b30d4beadaaec7260572d252d623c
+size 282985
+>>>>>>> origin/main

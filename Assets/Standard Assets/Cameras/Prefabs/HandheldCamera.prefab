@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
 --- !u!1 &100000
@@ -141,3 +142,8 @@ MonoBehaviour:
   m_FovAdjustTime: 0.1
   m_ZoomAmountMultiplier: 3
   m_IncludeEffectsInSize: 0
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:7f814cd37b9361367728774ae3de130720bb0b502e9b31b887878b369f53529f
+size 3720
+>>>>>>> origin/main

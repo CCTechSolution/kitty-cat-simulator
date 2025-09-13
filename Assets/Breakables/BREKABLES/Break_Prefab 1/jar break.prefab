@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
 --- !u!1 &1297478086632362893
@@ -611,3 +612,8 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:870ffb97f84761638490f3309245ac268b2b96fa9fb704cb8b99548bd35aad62
+size 17989
+>>>>>>> origin/main

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
 --- !u!1001 &2442195072406659850
@@ -133,3 +134,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   stringOfObject: _BlueCube
   GrannyTag: Enemy
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:65603a34eac72e45ccd51770cdc32406011431f9ff91b444ea56ac33eac5426d
+size 5266
+>>>>>>> origin/main

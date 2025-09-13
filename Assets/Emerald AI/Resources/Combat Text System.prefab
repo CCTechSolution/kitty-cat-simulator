@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
 --- !u!1001 &100100000
@@ -54,3 +55,8 @@ MonoBehaviour:
   CombatTextObject: {fileID: 0}
   AnimationType: 0
   CombatTextCanvas: {fileID: 0}
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:e0fe4aaca1539079336d80345e98e2ec121d2f571e6750e5a670bdfc300f832f
+size 1585
+>>>>>>> origin/main

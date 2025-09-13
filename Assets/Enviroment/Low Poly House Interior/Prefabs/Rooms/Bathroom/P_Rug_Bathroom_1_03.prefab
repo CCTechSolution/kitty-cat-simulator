@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
 --- !u!1001 &7052189351173079818
@@ -74,3 +75,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c72069962b0173742bbb8eb51843a0f2, type: 3}
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:a2e5125019f638d7f6cc6ed6fc10580dbf34b730a849adc677c529f36231e27a
+size 2880
+>>>>>>> origin/main

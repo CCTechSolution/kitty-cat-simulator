@@ -90,7 +90,11 @@ namespace UnityStandardAssets.Vehicles.Aeroplane
                                                          m_Plane.EnginePower);
 
             // Set the wind's pitch and volume to be proportional to the aeroplane's forward speed.
+<<<<<<< HEAD
             float planeSpeed = m_Rigidbody.linearVelocity.magnitude;
+=======
+            float planeSpeed = m_Rigidbody.velocity.magnitude;
+>>>>>>> origin/main
             m_WindSoundSource.pitch = m_WindBasePitch + planeSpeed*m_WindSpeedPitchFactor;
             m_WindSoundSource.volume = Mathf.InverseLerp(0, m_WindMaxSpeedVolume, planeSpeed)*m_AdvancedSetttings.windMasterVolume;
         }

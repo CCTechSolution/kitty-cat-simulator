@@ -32,11 +32,19 @@ public class ModesAd : MonoBehaviour
 
     }
 
+<<<<<<< HEAD
     public void OnWatchRewardAd()
     {
         if (AdmobAdsManager.Instance)
             AdmobAdsManager.Instance.ShowRewardedVideo(Ad100Coins);
            // MaxAdsManager.Instance.Btn_LS_Rew(Ad100Coins);
+=======
+   public void OnWatchRewardAd()
+    {
+       // if (AdmobAdsManager.Instance)
+           // AdmobAdsManager.Instance.ShowRewardedVideo(Ad100Coins);
+          // // MaxAdsManager.Instance.Btn_LS_Rew(Ad100Coins);
+>>>>>>> origin/main
     }
 
     void Ad100Coins()

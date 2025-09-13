@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4170475090305463929
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3781461395629043999}
+  - component: {fileID: 1119418089248481572}
+  m_Layer: 0
+  m_Name: SFX_Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3781461395629043999
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4170475090305463929}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 220.25667, y: 69.9009, z: -0.10800327}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1119418089248481572
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4170475090305463929}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7f865391276d4644b3a0983cce4d653, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectPick:
+  - {fileID: 8300000, guid: 5d52140c67c778848b61d9fd2d6cebde, type: 3}
+  objectThrow:
+  - {fileID: 8300000, guid: 714ec2c2dcdd4c048add2c9702e4917e, type: 3}
+  keysCollect:
+  - {fileID: 8300000, guid: 48990f570b3f7fb4387258f4b5bf23f5, type: 3}
+  diamondCollect:
+  - {fileID: 8300000, guid: 660672c7a734f4c418accc13a260bd13, type: 3}
+  updateUIText:
+  - {fileID: 8300000, guid: 193de65fdc74c88429a335f2548e492d, type: 3}
+  - {fileID: 8300000, guid: 2e9fb42ece2289e48b88281c7f3e61e0, type: 3}
+  MissionComplete:
+  - {fileID: 8300000, guid: dc7cb4167714f0f4484f889232b77c08, type: 3}
+  MissionFail:
+  - {fileID: 8300000, guid: 8084f72bd9867fe4d9f45aa4cca3b182, type: 3}
+  PauseResume:
+  - {fileID: 8300000, guid: 2ed36f31eb1229948ad0cc0e8cb4fcb0, type: 3}
+  StopAndNoSound:
+  - {fileID: 8300000, guid: 0fbe54b9f22eeb244bab7ab6305db0ac, type: 3}
+  - {fileID: 8300000, guid: 1eb4763f3038b5d4f972da08f4d8b6da, type: 3}
+  grannyStartChasing:
+  - {fileID: 8300000, guid: 0177d673ceebcb94786ded6ddb5339ac, type: 3}
+  - {fileID: 8300000, guid: fa45a6f57f1adb84396f8b38362e4f31, type: 3}
+  grannyAttack:
+  - {fileID: 8300000, guid: a92350ad65cb2124aaccfc6200f197fa, type: 3}

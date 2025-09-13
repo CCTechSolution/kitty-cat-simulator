@@ -1,0 +1,105 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &9159434386372371851
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 7e940492a0f504f4eb8c0051adc7a3ba,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7e940492a0f504f4eb8c0051adc7a3ba,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7e940492a0f504f4eb8c0051adc7a3ba,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7e940492a0f504f4eb8c0051adc7a3ba,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7e940492a0f504f4eb8c0051adc7a3ba,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7e940492a0f504f4eb8c0051adc7a3ba,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7e940492a0f504f4eb8c0051adc7a3ba,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7e940492a0f504f4eb8c0051adc7a3ba,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7e940492a0f504f4eb8c0051adc7a3ba,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7e940492a0f504f4eb8c0051adc7a3ba,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7e940492a0f504f4eb8c0051adc7a3ba,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 7e940492a0f504f4eb8c0051adc7a3ba,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b4805aea08a75fd409e7d3f196131ad8, type: 2}
+    - target: {fileID: -7511558181221131132, guid: 7e940492a0f504f4eb8c0051adc7a3ba,
+        type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5b2511f7911f937439e84ef418126ed2, type: 2}
+    - target: {fileID: -7511558181221131132, guid: 7e940492a0f504f4eb8c0051adc7a3ba,
+        type: 3}
+      propertyPath: m_Materials.Array.data[2]
+      value: 
+      objectReference: {fileID: 2100000, guid: b57bd16163e99e54dac14d3b19015575, type: 2}
+    - target: {fileID: 919132149155446097, guid: 7e940492a0f504f4eb8c0051adc7a3ba,
+        type: 3}
+      propertyPath: m_Name
+      value: P_Window_3_15
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7e940492a0f504f4eb8c0051adc7a3ba, type: 3}
+--- !u!1 &8349023735825832154 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 7e940492a0f504f4eb8c0051adc7a3ba,
+    type: 3}
+  m_PrefabInstance: {fileID: 9159434386372371851}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &6216671058502981520
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8349023735825832154}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.1740747, y: 2.953025, z: 1.8755566}
+  m_Center: {x: 0.031585693, y: 1.4765111, z: 0.9377759}

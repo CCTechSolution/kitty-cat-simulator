@@ -1,0 +1,31 @@
+{
+  "project_info": {
+    "project_number": "466588536704",
+    "project_id": "farhan-ios-games",
+    "storage_bucket": "farhan-ios-games.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:466588536704:ios:e7ceb97400abdab6097b65",
+        "android_client_info": {
+          "package_name": "com.bad.kitty.naughty.cat.simulator.angry.granny.chase."
+        }
+      },
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjxnvpzohUkDycHX-dSEHsWksBADfUzO4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 0
+        },
+        "appinvite_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

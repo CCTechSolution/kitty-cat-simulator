@@ -1,0 +1,146 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &8551059394515289335
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6202151032040889328, guid: be50654e30f356d4698f115f1cc0ee27, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6202151032040889328, guid: be50654e30f356d4698f115f1cc0ee27, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.47166693
+      objectReference: {fileID: 0}
+    - target: {fileID: 6202151032040889328, guid: be50654e30f356d4698f115f1cc0ee27, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.471667
+      objectReference: {fileID: 0}
+    - target: {fileID: 6202151032040889328, guid: be50654e30f356d4698f115f1cc0ee27, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.471667
+      objectReference: {fileID: 0}
+    - target: {fileID: 6202151032040889328, guid: be50654e30f356d4698f115f1cc0ee27, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 14.924955
+      objectReference: {fileID: 0}
+    - target: {fileID: 6202151032040889328, guid: be50654e30f356d4698f115f1cc0ee27, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.1224941
+      objectReference: {fileID: 0}
+    - target: {fileID: 6202151032040889328, guid: be50654e30f356d4698f115f1cc0ee27, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.952232
+      objectReference: {fileID: 0}
+    - target: {fileID: 6202151032040889328, guid: be50654e30f356d4698f115f1cc0ee27, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6202151032040889328, guid: be50654e30f356d4698f115f1cc0ee27, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.00000006717943
+      objectReference: {fileID: 0}
+    - target: {fileID: 6202151032040889328, guid: be50654e30f356d4698f115f1cc0ee27, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6202151032040889328, guid: be50654e30f356d4698f115f1cc0ee27, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6202151032040889328, guid: be50654e30f356d4698f115f1cc0ee27, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6202151032040889328, guid: be50654e30f356d4698f115f1cc0ee27, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6202151032040889328, guid: be50654e30f356d4698f115f1cc0ee27, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6396024803347030337, guid: be50654e30f356d4698f115f1cc0ee27, type: 3}
+      propertyPath: m_Name
+      value: _GoldenPlant Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 6396024803347030337, guid: be50654e30f356d4698f115f1cc0ee27, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6396024803347030337, guid: be50654e30f356d4698f115f1cc0ee27, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6396024803347030337, guid: be50654e30f356d4698f115f1cc0ee27, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: be50654e30f356d4698f115f1cc0ee27, type: 3}
+--- !u!1 &3344003663949440438 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6396024803347030337, guid: be50654e30f356d4698f115f1cc0ee27, type: 3}
+  m_PrefabInstance: {fileID: 8551059394515289335}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &1302666000
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3344003663949440438}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &1302665998
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3344003663949440438}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.77623814, y: 0.9422519, z: 0.7634577}
+  m_Center: {x: -0.012708308, y: -0.17100614, z: -0.026735842}
+--- !u!114 &1302665999
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3344003663949440438}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 717d63789425ad740aec6037f72db228, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stringOfObject: _GoldenPlant
+  GrannyTag: Enemy
+--- !u!114 &6551013625706081118
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3344003663949440438}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8b7ac85313164a428c96002527c523a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  wholeGameobject: {fileID: 3344003663949440438}
+  breakGameobject: {fileID: 1007303155852831398, guid: b348e258caf0a2348bc75f7eef319cfc, type: 3}
+  breakSound: {fileID: 0}

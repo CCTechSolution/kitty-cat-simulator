@@ -1,0 +1,131 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &1919108546023470602
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4298485688548744951, guid: 500379d1df1c5b44eb045d103e6abe2b, type: 3}
+      propertyPath: m_Name
+      value: _Cupcake
+      objectReference: {fileID: 0}
+    - target: {fileID: 4298485688548744951, guid: 500379d1df1c5b44eb045d103e6abe2b, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4298485688548744951, guid: 500379d1df1c5b44eb045d103e6abe2b, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4298485688548744951, guid: 500379d1df1c5b44eb045d103e6abe2b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6948914000839907142, guid: 500379d1df1c5b44eb045d103e6abe2b, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6948914000839907142, guid: 500379d1df1c5b44eb045d103e6abe2b, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.33952352
+      objectReference: {fileID: 0}
+    - target: {fileID: 6948914000839907142, guid: 500379d1df1c5b44eb045d103e6abe2b, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.33952206
+      objectReference: {fileID: 0}
+    - target: {fileID: 6948914000839907142, guid: 500379d1df1c5b44eb045d103e6abe2b, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.3395237
+      objectReference: {fileID: 0}
+    - target: {fileID: 6948914000839907142, guid: 500379d1df1c5b44eb045d103e6abe2b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.1709018
+      objectReference: {fileID: 0}
+    - target: {fileID: 6948914000839907142, guid: 500379d1df1c5b44eb045d103e6abe2b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.44403458
+      objectReference: {fileID: 0}
+    - target: {fileID: 6948914000839907142, guid: 500379d1df1c5b44eb045d103e6abe2b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.048354626
+      objectReference: {fileID: 0}
+    - target: {fileID: 6948914000839907142, guid: 500379d1df1c5b44eb045d103e6abe2b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.70820683
+      objectReference: {fileID: 0}
+    - target: {fileID: 6948914000839907142, guid: 500379d1df1c5b44eb045d103e6abe2b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000014417914
+      objectReference: {fileID: 0}
+    - target: {fileID: 6948914000839907142, guid: 500379d1df1c5b44eb045d103e6abe2b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7060051
+      objectReference: {fileID: 0}
+    - target: {fileID: 6948914000839907142, guid: 500379d1df1c5b44eb045d103e6abe2b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.000014638767
+      objectReference: {fileID: 0}
+    - target: {fileID: 6948914000839907142, guid: 500379d1df1c5b44eb045d103e6abe2b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6948914000839907142, guid: 500379d1df1c5b44eb045d103e6abe2b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6948914000839907142, guid: 500379d1df1c5b44eb045d103e6abe2b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 500379d1df1c5b44eb045d103e6abe2b, type: 3}
+--- !u!1 &2379381626509027581 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4298485688548744951, guid: 500379d1df1c5b44eb045d103e6abe2b, type: 3}
+  m_PrefabInstance: {fileID: 1919108546023470602}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &1538344649544128725
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2379381626509027581}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &1538344649544128724
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2379381626509027581}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.23101066, y: 0.40721735, z: 0.23101068}
+  m_Center: {x: -0.0011480453, y: 0.2025417, z: 0.0024121408}
+--- !u!114 &1538344649544128723
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2379381626509027581}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 717d63789425ad740aec6037f72db228, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stringOfObject: _Cupcake
+  GrannyTag: Enemy
